@@ -1,0 +1,149 @@
+/* Reset */
+
+* {margin: 0; padding: 0; font-size: 100%; font-family: 'Open Sans', sans-serif; font-size: normal;
+box-sizing: border-box: none; outline: none; }
+img {max-width: 100%;}
+ul{list-style: none;}
+a{text-decoration: none;}
+h2{font-size: 1.5em; color: #333333;}
+p{font-size: 1em; color: #777777;}
+
+/*Cabeçalho */
+
+.cabecalho {
+    width:90%;
+    float: left;
+    padding: 20px 5%;
+    background-color: #13c7ae;
+}
+
+.cabecalho a {
+
+    width: 13%;
+    float: right;
+    cursor: pointer;
+}
+
+/* SOCIAL MIDIA */
+.social-icons {
+    float: right;
+    margin-top: 5px;
+}
+
+.social-icons a {
+    float: left;
+    color: #000000;
+    margin-left: 12px;
+}
+
+.btn-facebook:hover     {color: #3b5998;}
+.btn-twitter:hover      {color: #54A4d6;}
+.btn-google:hover       {color: #d73d32;}
+
+.rodape {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 35%;
+    background-color: #13c7ae;
+    font-weight: bold;
+    border-width:2px;  
+    border-style:groove;
+}
+
+.tabela {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid gray;
+    text-align: center;
+    padding: 8px;
+}
+.tabela th{
+    padding: 10px;
+    background-color: rgb(176, 179, 182);
+}
+
+.h1-logo a {
+    width: 353px; height: 93px; float: left; background-image: url(../img/Logo-James.png); font-size: 0 ;
+    font-size: 0;
+}
+
+.h2-cadastro {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.adicionausuarios {
+    text-align: center;
+    /*width: 100%;*/
+    text-decoration: none;
+}
+
+.adicionausuarios:hover {
+    text-decoration: underline overline; 
+    color:#333333;
+        
+}
+
+label{
+    display:block;
+    margin-top:3px;
+    margin-left: 5px;
+}
+
+.typeNome{
+    padding: 3px;
+    width: 500px;
+    font-size: 15px;
+    border:1px solid #cccccc;
+}
+
+.typeEmail{
+    padding: 3px;
+    width: 500px;
+    font-size: 15px;
+    border:1px solid #cccccc;
+}
+
+.botao {    
+    margin-left: 5px;
+    background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#13c7ae), to(#13c7ae));
+    background: -webkit-linear-gradient(top, #13c7ae, #13c7ae);
+    background: -moz-linear-gradient(top,#13c7ae, #13c7ae);
+    background: -ms-linear-gradient(top, #13c7ae, #13c7ae);
+    background: -o-linear-gradient(top, #13c7ae, #13c7ae);
+    background: linear-gradient(top,#13c7ae, #13c7ae);
+    border: 1px solid #13c7ae;
+    border-bottom: 1px solid #13c7ae;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #13c7ae;
+    -webkit-box-shadow: 0 1px 0 0 #13c7ae inset ;
+    -moz-box-shadow: 0 1px 0 0 #13c7ae inset;
+    -ms-box-shadow: 0 1px 0 0 #13c7ae inset;
+    -o-box-shadow: 0 1px 0 0 #13c7ae inset;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #13c7ae;
+}
+
+.botao:hover {
+    opacity:.85;
+    cursor: pointer;
+}
+
+.h2-editarcadastro {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
